@@ -176,28 +176,6 @@
     "feedback": "The three main parts of a cell are the plasma membrane (boundary), cytoplasm (internal fluid), and nucleus (control center)."
   },
   {
-    "question": "Which of these is a strong acid?",
-    "choices": [
-      "HCl",
-      "H2CO3",
-      "CH3COOH",
-      "NH3"
-    ],
-    "correctIndex": 0,
-    "feedback": "HCl (hydrochloric acid) is a strong acid."
-  },
-  {
-    "question": "Which of these is a weak acid?",
-    "choices": [
-      "CH3COOH",
-      "HCl",
-      "HNO3",
-      "H2SO4"
-    ],
-    "correctIndex": 0,
-    "feedback": "Acetic acid (CH3COOH) is a common weak acid."
-  },
-  {
     "question": "What is the name of this chemical: Na",
     "choices": [
       "Sodium",
