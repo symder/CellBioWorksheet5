@@ -57,13 +57,13 @@
   {
     "question": "Which is the most common type of chemical bond?",
     "choices": [
-      "Covalent",
-      "Ionic",
       "Hydrogen",
+      "Ionic",
+      "Covalent",
       "Metallic"
     ],
-    "correctIndex": 0,
-    "feedback": "Covalent bonds are the most common type of chemical bond in biological molecules."
+    "correctIndex": 2,
+    "feedback": "Covalent bonds are the most common type of chemical bond."
   },
   {
     "question": "Which is the strongest chemical bond?",
@@ -71,10 +71,10 @@
       "Covalent",
       "Ionic",
       "Hydrogen",
-      "Van der Waals"
+      "Gorilla Glue"
     ],
-    "correctIndex": 0,
-    "feedback": "Covalent bonds are the strongest among the common chemical bonds."
+    "correctIndex": 1,
+    "feedback": "Ionic bonds are the strongest among the chemical bonds."
   },
   {
     "question": "Which is the weakest chemical bond?",
@@ -96,23 +96,23 @@
       "Mixtures involve covalent bonds"
     ],
     "correctIndex": 0,
-    "feedback": "Mixtures involve physical combinations, while compounds are chemically bonded."
+    "feedback": "Compounds are substances which can be formed by chemically combining two or more elements (Water - H20, Salt - NaCl). Mixtures are substances that are formed by physically mixing two or more substances (Water + Salt = Saltwater)."
   },
   {
     "question": "Which solution does not allow light to pass easily?",
     "choices": [
-      "Suspension",
-      "Solution",
       "Colloid",
+      "Solution",
+      "Suspension",
       "All allow light equally"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "feedback": "Suspensions are opaque and do not allow light to pass through easily."
   },
   {
     "question": "What is the purpose of the plasma membrane?",
     "choices": [
-      "To regulate what enters and leaves the cell",
+      "To control what enters and leaves the cell",
       "To produce energy",
       "To digest waste",
       "To store DNA"
@@ -123,16 +123,16 @@
   {
     "question": "What makes up the plasma membrane?",
     "choices": [
-      "Phospholipids and proteins",
       "DNA and RNA",
+      "Phospholipids and proteins",
       "Glucose and water",
       "Amino acids and cholesterol"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "feedback": "The plasma membrane is primarily made of phospholipids and embedded proteins."
   },
   {
-    "question": "What can cross the plasma membrane easily?",
+    "question": "Which of these can cross the plasma membrane easily?",
     "choices": [
       "Small nonpolar molecules",
       "Large proteins",
@@ -145,16 +145,16 @@
   {
     "question": "What can't cross the plasma membrane without assistance?",
     "choices": [
-      "Glucose and ions",
+      "Water",
       "Oxygen",
       "Carbon dioxide",
-      "Water"
+      "Glucose and ions"
     ],
-    "correctIndex": 0,
-    "feedback": "Glucose and ions require transport proteins to cross the membrane."
+    "correctIndex": 3,
+    "feedback": "Glucose and ions require transport proteins (porters) to cross the membrane."
   },
   {
-    "question": "What can\u2019t cross the plasma membrane at all?",
+    "question": "What can't cross the plasma membrane at all?",
     "choices": [
       "Large charged molecules",
       "Water",
@@ -165,25 +165,14 @@
     "feedback": "Large charged molecules typically cannot cross without specific transport mechanisms."
   },
   {
-    "question": "What are the 3 parts of the cell and their function?",
-    "choices": [
-      "Plasma membrane, cytoplasm, nucleus",
-      "Cell wall, cytoplasm, mitochondria",
-      "Nucleus, ribosomes, ER",
-      "Golgi, lysosome, peroxisome"
-    ],
-    "correctIndex": 0,
-    "feedback": "The three main parts of a cell are the plasma membrane (boundary), cytoplasm (internal fluid), and nucleus (control center)."
-  },
-  {
     "question": "What is the name of this chemical: Na",
     "choices": [
-      "Sodium",
-      "Nitrogen",
       "Nickel",
+      "Nitrogen",
+      "Sodium",
       "Naphthalene"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "feedback": "Na is the chemical symbol for Sodium."
   },
   {
@@ -200,12 +189,12 @@
   {
     "question": "What is the name of this chemical: Ca",
     "choices": [
-      "Calcium",
       "Carbon",
+      "Calcium",
       "Cadmium",
       "Chlorine"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "feedback": "Ca is the chemical symbol for Calcium."
   },
   {
@@ -217,17 +206,17 @@
       "Methane"
     ],
     "correctIndex": 0,
-    "feedback": "Mg is the chemical symbol for Magnesium."
+    "feedback": "Mg is the chemical symbol for Magnesium. Maganese is Mn."
   },
   {
     "question": "What is the name of this chemical: Cl",
     "choices": [
-      "Chlorine",
+      "Carbon",
       "Calcium",
       "Chloride",
-      "Carbon"
+      "Chlorine"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "feedback": "Cl stands for Chlorine."
   },
   {
@@ -244,12 +233,12 @@
   {
     "question": "What is the name of this chemical: S",
     "choices": [
-      "Sulfur",
-      "Sodium",
       "Silicon",
+      "Sodium",
+      "Sulfur",
       "Strontium"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "feedback": "S is the chemical symbol for Sulfur."
   },
 {
@@ -260,8 +249,8 @@
 },
 {
   "question": "What is the smallest unit (monomer) of Protein?",
-  "choices": ["Amino acids", "Monosaccharides", "Fatty acids", "Nucleotides"],
-  "correctIndex": 0,
+  "choices": ["Monosaccharides", "Amino acids", "Fatty acids", "Nucleotides"],
+  "correctIndex": 1,
   "feedback": "Proteins are made from amino acid monomers."
 },
 {
@@ -272,38 +261,38 @@
 },
 {
   "question": "Fill in the blank: Amino acids join to form a short _________________ or a long __________________.",
-  "choices": ["peptide, protein", "fat, chain", "sugar, carbohydrate", "gene, chromosome"],
-  "correctIndex": 0,
+  "choices": ["fat, chain", "peptide, protein", "sugar, carbohydrate", "gene, chromosome"],
+  "correctIndex": 1,
   "feedback": "Amino acids form short peptides or long proteins."
 },
 {
   "question": "Fill in the blank: Glucose is stored as_________________.",
-  "choices": ["glycogen", "lipid", "protein", "amino acid"],
-  "correctIndex": 0,
+  "choices": ["protein", "lipid", "glycogen", "amino acid"],
+  "correctIndex": 2,
   "feedback": "Glucose is stored in the body as glycogen."
 },
 {
   "question": "Fill in the blank: Fat is stored as_________________________.",
-  "choices": ["triglycerides", "cholesterol", "glycogen", "glucose"],
-  "correctIndex": 0,
+  "choices": ["glucose", "cholesterol", "glycogen", "triglycerides"],
+  "correctIndex": 3,
   "feedback": "Fat is stored in the body in the form of triglycerides."
 },
 {
   "question": "Fill in the blank: Cholesterol is used to keep the plasma membrane _________________.",
-  "choices": ["fluid", "rigid", "non-porous", "inactive"],
-  "correctIndex": 0,
+  "choices": ["inactive", "rigid", "non-porous", "fluid"],
+  "correctIndex": 3,
   "feedback": "Cholesterol helps maintain fluidity in the plasma membrane."
 },
 {
   "question": "What is a platelet’s function?",
-  "choices": ["Blood clotting", "Oxygen transport", "Immunity", "Nutrient absorption"],
-  "correctIndex": 0,
+  "choices": ["Immunity", "Oxygen transport", "Blood clotting", "Nutrient absorption"],
+  "correctIndex": 2,
   "feedback": "Platelets are responsible for blood clotting."
 },
 {
   "question": "What is the role of a peroxisome?",
-  "choices": ["Breaks down fatty acids and detoxifies", "Protein synthesis", "DNA replication", "Energy production"],
-  "correctIndex": 0,
+  "choices": ["DNA replication", "Protein synthesis", "Breaks down fatty acids and detoxifies", "Energy production"],
+  "correctIndex": 2,
   "feedback": "Peroxisomes break down fatty acids and neutralize toxic compounds."
 },
 {
@@ -320,8 +309,8 @@
 },
 {
   "question": "What is the role of the Golgi complex?",
-  "choices": ["Modifies, packages, and ships proteins", "Generates energy", "Detoxifies chemicals", "Synthesizes DNA"],
-  "correctIndex": 0,
+  "choices": ["Generates energy", "Modifies, packages, and ships proteins", "Detoxifies chemicals", "Synthesizes DNA"],
+  "correctIndex": 1,
   "feedback": "The Golgi complex processes and packages proteins and lipids."
 },
 {
@@ -332,14 +321,14 @@
 },
 {
   "question": "What is the role of ribosomes?",
-  "choices": ["Protein synthesis", "ATP production", "DNA storage", "Fat metabolism"],
-  "correctIndex": 0,
+  "choices": ["DNA storage", "ATP production", "Protein synthesis", "Fat metabolism"],
+  "correctIndex": 2,
   "feedback": "Ribosomes are responsible for synthesizing proteins."
 },
 {
   "question": "What is the role of the smooth ER?",
-  "choices": ["Lipid synthesis and detoxification", "Protein production", "DNA replication", "Energy storage"],
-  "correctIndex": 0,
+  "choices": ["Energy storage", "Protein production", "DNA replication", "Lipid synthesis and detoxification"],
+  "correctIndex": 3,
   "feedback": "The smooth ER is involved in lipid synthesis and detoxification processes."
 },
 {
@@ -350,14 +339,14 @@
 },
 {
   "question": "What is it called when there is only 1 layer of cells in a tissue?",
-  "choices": ["Simple", "Stratified", "Cuboidal", "Pseudostratified"],
-  "correctIndex": 0,
+  "choices": ["Cuboidal", "Stratified", "Simple", "Pseudostratified"],
+  "correctIndex": 2,
   "feedback": "A single layer of cells is called 'simple' epithelium."
 },
 {
   "question": "What is it called when there is more than 1 layer of cells in a tissue?",
-  "choices": ["Stratified", "Simple", "Cuboidal", "Columnar"],
-  "correctIndex": 0,
+  "choices": ["Simple", "Stratified", "Cuboidal", "Columnar"],
+  "correctIndex": 1,
   "feedback": "Tissues with more than one layer of cells are called 'stratified'."
 },
 {
@@ -374,14 +363,14 @@
 },
 {
   "question": "What is an osteon?",
-  "choices": ["Structural unit of compact bone", "Bone cell", "Joint", "Bone marrow"],
-  "correctIndex": 0,
+  "choices": ["Joint", "Bone cell", "Structural unit of compact bone", "Bone marrow"],
+  "correctIndex": 2,
   "feedback": "An osteon is the functional unit of compact bone."
 },
 {
   "question": "Which tissues are excitable?",
-  "choices": ["Nervous and muscle tissue", "Connective and epithelial", "Bone and cartilage", "Adipose and epithelial"],
-  "correctIndex": 0,
+  "choices": ["Bone and cartilage", "Connective and epithelial", "Nervous and muscle tissue", "Adipose and epithelial"],
+  "correctIndex": 2,
   "feedback": "Nervous and muscle tissues are excitable, meaning they can respond to stimuli."
 },
 {
@@ -398,14 +387,14 @@
 },
 {
   "question": "Name a cell found in connective tissue.",
-  "choices": ["Fibroblast", "Neuron", "Chondrocyte", "Myocyte"],
-  "correctIndex": 0,
+  "choices": ["Myocyte", "Neuron", "Chondrocyte", "Fibroblast"],
+  "correctIndex": 3,
   "feedback": "Fibroblasts are common cells found in connective tissue."
 },
 {
   "question": "Which tissues are avascular?",
-  "choices": ["Epithelial and cartilage", "Muscle and nervous", "Bone and muscle", "Blood and bone"],
-  "correctIndex": 0,
+  "choices": ["Bone and muscle", "Muscle and nervous", "Epithelial and cartilage", "Blood and bone"],
+  "correctIndex": 2,
   "feedback": "Epithelial tissue and cartilage are avascular, meaning they lack blood vessels."
 },
 {
@@ -422,14 +411,14 @@
 },
 {
   "question": "What is the purpose of ATP?",
-  "choices": ["To store and provide energy for cellular processes", "To synthesize proteins", "To carry genetic information", "To build cell membranes"],
-  "correctIndex": 0,
+  "choices": ["To build cell membranes", "To synthesize proteins", "To carry genetic information", "To store and provide energy for cellular processes"],
+  "correctIndex": 3,
   "feedback": "ATP is the primary energy carrier in cells."
 },
 {
   "question": "What increases the speed at which substances diffuse?",
-  "choices": ["Higher temperature", "Lower concentration gradient", "Thicker membrane", "Smaller surface area"],
-  "correctIndex": 0,
+  "choices": ["Thicker membrane", "Lower concentration gradient", "Higher temperature", "Smaller surface area"],
+  "correctIndex": 2,
   "feedback": "Higher temperatures increase the kinetic energy of particles, speeding up diffusion."
 },
 {
@@ -440,20 +429,20 @@
 },
 {
   "question": "Compare apoptosis and necrosis.",
-  "choices": ["Apoptosis is controlled; necrosis is uncontrolled", "Both are uncontrolled", "Both are controlled", "Necrosis is beneficial; apoptosis is not"],
+  "choices": ["Apoptosis is controlled; necrosis is uncontrolled", "Necrosis is beneficial; apoptosis is not", "Both are controlled", "Both are uncontrolled"],
   "correctIndex": 0,
   "feedback": "Apoptosis is a programmed, controlled process, while necrosis is uncontrolled cell death due to injury."
 },
 {
   "question": "Which type of muscle tissue is voluntary?",
-  "choices": ["Skeletal", "Smooth", "Cardiac", "All of them"],
-  "correctIndex": 0,
+  "choices": ["Cardiac", "Smooth", "Skeletal", "All of them"],
+  "correctIndex": 2,
   "feedback": "Skeletal muscle is the only voluntary muscle tissue."
 },
 {
   "question": "Which type of muscle tissue is striated?",
-  "choices": ["Skeletal and cardiac", "Smooth and cardiac", "Skeletal and smooth", "All muscle types"],
-  "correctIndex": 0,
+  "choices": ["Smooth and cardiac", "Skeletal and cardiac", "Skeletal and smooth", "All muscle types"],
+  "correctIndex": 1,
   "feedback": "Skeletal and cardiac muscle tissues are striated."
 }
 
