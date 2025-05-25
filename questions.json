@@ -107,7 +107,7 @@
       "All allow light equally"
     ],
     "correctIndex": 2,
-    "feedback": "Suspensions are opaque and do not allow light to pass through easily."
+    "feedback": "Suspensions are always opaque and do not allow light to pass through easily. Colloids include things like Fog, which light can partially pass through."
   },
   {
     "question": "What is the purpose of the plasma membrane?",
