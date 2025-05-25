@@ -365,7 +365,7 @@
   "question": "What is an osteon?",
   "choices": ["Joint", "Bone cell", "Structural unit of compact bone", "Bone marrow"],
   "correctIndex": 2,
-  "feedback": "An osteon is the functional unit of compact bone."
+  "feedback": "An osteon is a structural unit of compact bone."
 },
 {
   "question": "Which tissues are excitable?",
